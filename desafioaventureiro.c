@@ -8,7 +8,7 @@ int main(){
     int matriz [LINHAS] [COLUNAS]; // Declara a matriz com o tamanho definido nas constantes
 
     //Solicita ao usuário montar o tabuleiro com posicionamento dos navios
-    printf("Digite os valores da matriz:\n");
+    printf("Posicione os navios no tabuleiro:\n");
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
             printf("Elemento [%d][%d]: ", i, j);
@@ -16,7 +16,7 @@ int main(){
         }
     }
     // Exibe o tabuleiro com posicionamento dos navios preenchido
-    printf("\nA matriz preenchida é:\n");
+    printf("\nVeja como ficou o tabuleiro:\n");
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
             printf("%d ", matriz[i][j]);
